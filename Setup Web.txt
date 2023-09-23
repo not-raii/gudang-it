@@ -1,0 +1,40 @@
+MEMBUAT APLIKASI INVENTORY BARANG BERBASIS WEB (PHP+MYSQL+BOOTSTRAP)
+
+1. Setup Template + Database DONE
+2. Login & Logout
+3. Setup Halaman + Datables
+4. Insert data (data/stok barang, barang masuk, barang keluar, kategori barang)
+5. menampilkan data ke table DONE
+6. CRUD 
+7. activity log
+
+SITEMAP
+(ADMIN)
+dashboard
+data pengguna
+data barang DONE
+barang
+barang masuk
+barang keluar
+manajemen pengguna
+keluar
+
+(USER)
+barang masuk
+barang keluar
+keluar
+
+DATABASEs
+-. admin: iduser, email, pass, role
+-. user: iduser, email, pass
+
+-. kategori: idkategori, namakategori
+-. stock: idbarang, gmbar, namabarang, idkategori, harga, stock/qty
+-. log: 
+-. masuk: idmasuk, idbarang, tanggal, jumlah, ket
+-. keluar: idkeluar, idbarang, tanggal, jumlah, penerima 
+
+pplugins sweet alert
+
+categories->supplies-> barangmasuk/barankeluar
+user
